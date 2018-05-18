@@ -13,6 +13,7 @@
 		2636DAC020AEB0B4001EC1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636DABF20AEB0B4001EC1A3 /* Assets.xcassets */; };
 		2636DAC320AEB0B4001EC1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DAC120AEB0B4001EC1A3 /* LaunchScreen.storyboard */; };
 		2636DACE20AEB0B4001EC1A3 /* RetailDomainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DACD20AEB0B4001EC1A3 /* RetailDomainUITests.swift */; };
+		2636DAD920AEB0C9001EC1A3 /* RetailDomainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAD820AEB0C9001EC1A3 /* RetailDomainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2636DAC920AEB0B4001EC1A3 /* RetailDomainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailDomainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2636DACD20AEB0B4001EC1A3 /* RetailDomainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailDomainUITests.swift; sourceTree = "<group>"; };
 		2636DACF20AEB0B4001EC1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636DAD820AEB0C9001EC1A3 /* RetailDomainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RetailDomainController.swift; path = RetailDomain/RetailDomainController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				2636DABF20AEB0B4001EC1A3 /* Assets.xcassets */,
 				2636DAC120AEB0B4001EC1A3 /* LaunchScreen.storyboard */,
 				2636DAC420AEB0B4001EC1A3 /* Info.plist */,
+				2636DAD820AEB0C9001EC1A3 /* RetailDomainController.swift */,
 			);
 			name = RetailDomain;
 			path = ../../../vahuj5/Desktop/RetailDomain/RetailDomain;
@@ -203,6 +206,7 @@
 			files = (
 				2636DABB20AEB0B4001EC1A3 /* ViewController.swift in Sources */,
 				2636DAB920AEB0B4001EC1A3 /* AppDelegate.swift in Sources */,
+				2636DAD920AEB0C9001EC1A3 /* RetailDomainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
