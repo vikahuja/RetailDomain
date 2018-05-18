@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2636DAB920AEB0B4001EC1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAB820AEB0B4001EC1A3 /* AppDelegate.swift */; };
-		2636DABB20AEB0B4001EC1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DABA20AEB0B4001EC1A3 /* ViewController.swift */; };
 		2636DABE20AEB0B4001EC1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DABC20AEB0B4001EC1A3 /* Main.storyboard */; };
 		2636DAC020AEB0B4001EC1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636DABF20AEB0B4001EC1A3 /* Assets.xcassets */; };
 		2636DAC320AEB0B4001EC1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DAC120AEB0B4001EC1A3 /* LaunchScreen.storyboard */; };
 		2636DACE20AEB0B4001EC1A3 /* RetailDomainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DACD20AEB0B4001EC1A3 /* RetailDomainUITests.swift */; };
 		2636DAD920AEB0C9001EC1A3 /* RetailDomainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAD820AEB0C9001EC1A3 /* RetailDomainController.swift */; };
+		2636DAF120AEB583001EC1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636DADD20AEB582001EC1A3 /* Assets.xcassets */; };
+		2636DAF220AEB583001EC1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DADE20AEB582001EC1A3 /* LaunchScreen.storyboard */; };
+		2636DAF320AEB583001EC1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DAE020AEB582001EC1A3 /* Main.storyboard */; };
+		2636DAF420AEB583001EC1A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2636DAE220AEB582001EC1A3 /* Info.plist */; };
+		2636DAF520AEB583001EC1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAE320AEB582001EC1A3 /* ViewController.swift */; };
+		2636DAF620AEB583001EC1A3 /* FinancialDomainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAE820AEB583001EC1A3 /* FinancialDomainUITests.swift */; };
+		2636DAF720AEB583001EC1A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2636DAE920AEB583001EC1A3 /* Info.plist */; };
+		2636DB0120AECD2E001EC1A3 /* FinancialDomainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAFE20AECD2E001EC1A3 /* FinancialDomainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,12 +31,25 @@
 			remoteGlobalIDString = 2636DAB420AEB0B4001EC1A3;
 			remoteInfo = RetailDomain;
 		};
+		2636DAEC20AEB583001EC1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2636DAE420AEB582001EC1A3 /* FinancialDomain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2636DA8920AEAE6D001EC1A3;
+			remoteInfo = FinancialDomain;
+		};
+		2636DAEE20AEB583001EC1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2636DAE420AEB582001EC1A3 /* FinancialDomain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2636DA9D20AEAE6D001EC1A3;
+			remoteInfo = FinancialDomainUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2636DAB520AEB0B4001EC1A3 /* RetailDomain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailDomain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2636DAB820AEB0B4001EC1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2636DABA20AEB0B4001EC1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2636DABD20AEB0B4001EC1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2636DABF20AEB0B4001EC1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2636DAC220AEB0B4001EC1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +58,15 @@
 		2636DACD20AEB0B4001EC1A3 /* RetailDomainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailDomainUITests.swift; sourceTree = "<group>"; };
 		2636DACF20AEB0B4001EC1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2636DAD820AEB0C9001EC1A3 /* RetailDomainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RetailDomainController.swift; path = RetailDomain/RetailDomainController.swift; sourceTree = SOURCE_ROOT; };
+		2636DADD20AEB582001EC1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2636DADF20AEB582001EC1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2636DAE120AEB582001EC1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2636DAE220AEB582001EC1A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636DAE320AEB582001EC1A3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2636DAE420AEB582001EC1A3 /* FinancialDomain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FinancialDomain.xcodeproj; sourceTree = "<group>"; };
+		2636DAE820AEB583001EC1A3 /* FinancialDomainUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDomainUITests.swift; sourceTree = "<group>"; };
+		2636DAE920AEB583001EC1A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636DAFE20AECD2E001EC1A3 /* FinancialDomainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDomainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +90,7 @@
 		2636DAAC20AEB0B4001EC1A3 = {
 			isa = PBXGroup;
 			children = (
+				2636DADA20AEB582001EC1A3 /* FinancialDomain */,
 				2636DAB720AEB0B4001EC1A3 /* RetailDomain */,
 				2636DACC20AEB0B4001EC1A3 /* RetailDomainUITests */,
 				2636DAB620AEB0B4001EC1A3 /* Products */,
@@ -80,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				2636DAB820AEB0B4001EC1A3 /* AppDelegate.swift */,
-				2636DABA20AEB0B4001EC1A3 /* ViewController.swift */,
 				2636DABC20AEB0B4001EC1A3 /* Main.storyboard */,
 				2636DABF20AEB0B4001EC1A3 /* Assets.xcassets */,
 				2636DAC120AEB0B4001EC1A3 /* LaunchScreen.storyboard */,
@@ -99,6 +128,47 @@
 			);
 			name = RetailDomainUITests;
 			path = ../../../vahuj5/Desktop/RetailDomain/RetailDomainUITests;
+			sourceTree = "<group>";
+		};
+		2636DADA20AEB582001EC1A3 /* FinancialDomain */ = {
+			isa = PBXGroup;
+			children = (
+				2636DADB20AEB582001EC1A3 /* FinancialDomain */,
+				2636DAE420AEB582001EC1A3 /* FinancialDomain.xcodeproj */,
+				2636DAE720AEB583001EC1A3 /* FinancialDomainUITests */,
+			);
+			path = FinancialDomain;
+			sourceTree = "<group>";
+		};
+		2636DADB20AEB582001EC1A3 /* FinancialDomain */ = {
+			isa = PBXGroup;
+			children = (
+				2636DADD20AEB582001EC1A3 /* Assets.xcassets */,
+				2636DADE20AEB582001EC1A3 /* LaunchScreen.storyboard */,
+				2636DAE020AEB582001EC1A3 /* Main.storyboard */,
+				2636DAE220AEB582001EC1A3 /* Info.plist */,
+				2636DAE320AEB582001EC1A3 /* ViewController.swift */,
+				2636DAFE20AECD2E001EC1A3 /* FinancialDomainController.swift */,
+			);
+			path = FinancialDomain;
+			sourceTree = "<group>";
+		};
+		2636DAE520AEB582001EC1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2636DAED20AEB583001EC1A3 /* FinancialDomain.app */,
+				2636DAEF20AEB583001EC1A3 /* FinancialDomainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2636DAE720AEB583001EC1A3 /* FinancialDomainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2636DAE820AEB583001EC1A3 /* FinancialDomainUITests.swift */,
+				2636DAE920AEB583001EC1A3 /* Info.plist */,
+			);
+			path = FinancialDomainUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +241,12 @@
 			mainGroup = 2636DAAC20AEB0B4001EC1A3;
 			productRefGroup = 2636DAB620AEB0B4001EC1A3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2636DAE520AEB582001EC1A3 /* Products */;
+					ProjectRef = 2636DAE420AEB582001EC1A3 /* FinancialDomain.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2636DAB420AEB0B4001EC1A3 /* RetailDomain */,
@@ -179,14 +255,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		2636DAED20AEB583001EC1A3 /* FinancialDomain.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FinancialDomain.app;
+			remoteRef = 2636DAEC20AEB583001EC1A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2636DAEF20AEB583001EC1A3 /* FinancialDomainUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FinancialDomainUITests.xctest;
+			remoteRef = 2636DAEE20AEB583001EC1A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2636DAB320AEB0B4001EC1A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2636DAF720AEB583001EC1A3 /* Info.plist in Resources */,
 				2636DAC320AEB0B4001EC1A3 /* LaunchScreen.storyboard in Resources */,
 				2636DAC020AEB0B4001EC1A3 /* Assets.xcassets in Resources */,
+				2636DAF120AEB583001EC1A3 /* Assets.xcassets in Resources */,
+				2636DAF320AEB583001EC1A3 /* Main.storyboard in Resources */,
+				2636DAF220AEB583001EC1A3 /* LaunchScreen.storyboard in Resources */,
 				2636DABE20AEB0B4001EC1A3 /* Main.storyboard in Resources */,
+				2636DAF420AEB583001EC1A3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2636DABB20AEB0B4001EC1A3 /* ViewController.swift in Sources */,
+				2636DAF520AEB583001EC1A3 /* ViewController.swift in Sources */,
+				2636DB0120AECD2E001EC1A3 /* FinancialDomainController.swift in Sources */,
+				2636DAF620AEB583001EC1A3 /* FinancialDomainUITests.swift in Sources */,
 				2636DAB920AEB0B4001EC1A3 /* AppDelegate.swift in Sources */,
 				2636DAD920AEB0C9001EC1A3 /* RetailDomainController.swift in Sources */,
 			);
@@ -243,6 +343,22 @@
 				2636DAC220AEB0B4001EC1A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2636DADE20AEB582001EC1A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2636DADF20AEB582001EC1A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2636DAE020AEB582001EC1A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2636DAE120AEB582001EC1A3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
